@@ -14,20 +14,20 @@ namespace MyCompany.MathProgram.Controller
             this._mathService = mathService;
         }
 
-        [HttpGet]
-        public ResponseDTO Add (RequestDTO requestDTO)
+        [HttpGet("Add")]
+        public ResponseDTO Add ([FromQuery] RequestDTO requestDTO)
         {
             return _mathService.Sum(requestDTO);
         }
 
-        [HttpGet]
+        [HttpPost("Sub")]
         public ResponseDTO Sub (RequestDTO requestDTO)
         {
             return _mathService.Sub(requestDTO);
         }
 
-        [HttpGet]
-        public RequestDTO Mult (RequestDTO requestDTO)
+        [HttpGet("Mult")]
+        public RequestDTO Mult ([FromQuery] RequestDTO requestDTO)
         {
             return _mathService.Mult(requestDTO);
         }
