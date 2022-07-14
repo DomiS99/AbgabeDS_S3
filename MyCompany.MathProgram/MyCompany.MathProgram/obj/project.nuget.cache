@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pR0dOFSpnT6ukM28ZlkYxKvKBn/Kpmda1BnKzu+Ys4Wf2b50IFVpjoRyLUJNzYvDQFWycNT2PhnAkfK5eZfPVQ==",
+  "dgSpecHash": "aOMXBfVPsIE9EQc040FY/R9ikJJ/r2euCr058DJwcyJ7OStjRgDA58ESI2Ie+rUdlt6+L5T3KXExJoRolM54pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\domin\\source\\repos\\MyCompany.MathProgram\\MyCompany.MathProgram\\MyCompany.MathProgram.csproj",
+  "projectFilePath": "C:\\Users\\domin\\Source\\Repos\\AbgabeDS_S3New\\MyCompany.MathProgram\\MyCompany.MathProgram\\MyCompany.MathProgram.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\domin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.2\\swashbuckle.aspnetcore.swagger.6.3.2.nupkg.sha512",

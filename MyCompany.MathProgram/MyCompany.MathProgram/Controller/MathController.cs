@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyCompany.MathProgram.DTO;
 using MyCompany.MathProgram.ServiceInterface;
 
 namespace MyCompany.MathProgram.Controller
@@ -7,18 +8,28 @@ namespace MyCompany.MathProgram.Controller
     [Route("[controller]")] //gibt die Rute/Pfat zum Controller durch vor ohne "controller"
     public class MathController :ControllerBase
     {
-        private readonly IMathService _mathService;
-        public MathController (IMathService mathService)
+        private readonly IMathService _mathService; //Speichervariable für den MathController
+        public MathController (IMathService mathService) //Zuweisung zum Interface, nur Methoden die im Interface definiert sind können verwendet werden
         {
             this._mathService = mathService;
         }
 
         [HttpGet]
-        public double Add (double zahl1, double zahl2)
+        public ResponseDTO Add (RequestDTO requestDTO)
         {
-            return this._mathService.Sum(zahl1,zahl2);
+            return _mathService.Sum(requestDTO);
         }
 
         [HttpGet]
+        public ResponseDTO Sub (RequestDTO requestDTO)
+        {
+            return _mathService.Sub(requestDTO);
+        }
+
+        [HttpGet]
+        public RequestDTO Mult (RequestDTO requestDTO)
+        {
+            return _mathService.Mult(requestDTO);
+        }
     }
 }

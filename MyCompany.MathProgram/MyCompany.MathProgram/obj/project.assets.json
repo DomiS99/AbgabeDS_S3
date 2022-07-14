@@ -152,11 +152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\domin\\source\\repos\\MyCompany.MathProgram\\MyCompany.MathProgram\\MyCompany.MathProgram.csproj",
+      "projectUniqueName": "C:\\Users\\domin\\Source\\Repos\\AbgabeDS_S3New\\MyCompany.MathProgram\\MyCompany.MathProgram\\MyCompany.MathProgram.csproj",
       "projectName": "MyCompany.MathProgram",
-      "projectPath": "C:\\Users\\domin\\source\\repos\\MyCompany.MathProgram\\MyCompany.MathProgram\\MyCompany.MathProgram.csproj",
+      "projectPath": "C:\\Users\\domin\\Source\\Repos\\AbgabeDS_S3New\\MyCompany.MathProgram\\MyCompany.MathProgram\\MyCompany.MathProgram.csproj",
       "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\domin\\source\\repos\\MyCompany.MathProgram\\MyCompany.MathProgram\\obj\\",
+      "outputPath": "C:\\Users\\domin\\Source\\Repos\\AbgabeDS_S3New\\MyCompany.MathProgram\\MyCompany.MathProgram\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",
