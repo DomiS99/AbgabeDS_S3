@@ -14,8 +14,8 @@ namespace MyCompany.MathProgram.Controller
             this._mathService = mathService;
         }
 
-        [HttpGet("Add")]
-        public ResponseDTO Add ([FromQuery] RequestDTO requestDTO)
+        [HttpGet("Add")] //"Add" beschriebt wie die Methode genannt wird im UI
+        public ResponseDTO Add ([FromQuery] RequestDTO requestDTO) //From query benötig man bei get behlen die etwas ausgeben
         {
             return _mathService.Sum(requestDTO);
         }
