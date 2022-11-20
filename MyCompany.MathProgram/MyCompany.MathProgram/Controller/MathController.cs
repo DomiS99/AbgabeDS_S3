@@ -31,5 +31,11 @@ namespace MyCompany.MathProgram.Controller
         {
             return _mathService.Mult(requestDTO);
         }
+
+        [HttpPost("Div")]
+        public RequestDTO Div([FromQuery] RequestDTO requestDTO)
+        {
+            return _mathService.Div(requestDTO);
+        }
     }
 }

@@ -41,5 +41,15 @@ namespace MyCompany.MathProgram.Service
             ResponseDTO.Result = result;
             return ResponseDTO;
         }
+
+        public ResponseDTO Div(RequestDTO requestDTO)
+        {
+            var result = requestDTO.NumberOne / requestDTO.NumberTwo;
+            var ResponseDTO = new ResponseDTO();
+            ResponseDTO.NumberOne = requestDTO.NumberOne;
+            ResponseDTO.NumberTwo = requestDTO.NumberTwo;
+            ResponseDTO.Result = result;
+            return ResponseDTO;
+        }
     }
 }
