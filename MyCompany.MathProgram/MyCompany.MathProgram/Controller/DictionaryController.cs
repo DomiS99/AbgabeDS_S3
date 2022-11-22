@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyCompany.MathProgram.DTO;
 using MyCompany.MathProgram.DTO.QuickType;
+using MyCompany.MathProgram.Service;
 using MyCompany.MathProgram.ServiceInterface;
 
 namespace MyCompany.MathProgram.Controller
@@ -18,9 +19,9 @@ namespace MyCompany.MathProgram.Controller
         }
 
         [HttpGet]
-        public DictionaryDTO Get([FromQuery]string word)
+        public DictionaryService DictionaryInput([FromQuery]string word)
         {
-            return _dictionaryService.Get(word);
+            return _dictionaryService.GetWord(word);
         }
     }
            

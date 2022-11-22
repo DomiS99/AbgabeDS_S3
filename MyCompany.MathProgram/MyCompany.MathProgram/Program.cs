@@ -15,6 +15,7 @@ public class Program
         builder.Services.AddEndpointsApiExplorer(); //Erkennt die Endpunkte der verwendeten Api
         builder.Services.AddSwaggerGen(); //Swagger initialisieren (für UI Testung)
         builder.Services.AddTransient<IMathService, MathService>(); // erstellt den MathService
+        builder.Services.AddTransient<IDictionaryService, DictionaryService>();
 
 
 

@@ -4,6 +4,6 @@ namespace MyCompany.MathProgram.ServiceInterface
 {
     public interface IDictionaryService
     {
-        public DictionaryService Get(string Word);
+        public DictionaryService GetWord(string Word);
     }
 }

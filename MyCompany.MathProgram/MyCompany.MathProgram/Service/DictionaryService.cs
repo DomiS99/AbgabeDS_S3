@@ -13,7 +13,7 @@ namespace MyCompany.MathProgram.Service
     [Route("[controller]")]
     public class DictionaryService : IDictionaryService
     {
-        public DictionaryService Get(string Word)
+        public DictionaryService GetWord(string Word)
         {
             var httpRequest = new HttpRequestMessage();
             httpRequest.Method = HttpMethod.Get;

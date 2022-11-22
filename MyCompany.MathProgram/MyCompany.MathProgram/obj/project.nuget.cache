@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RwqrlIYVzuUo5pVCXPEoKMfHr8JoOnVL7eizF2xC9BgTALLt2x93r/qGo8zDpvqo/AFW52fIE2J5bL4Ic+1oMA==",
+  "dgSpecHash": "z9KWgRtRIOin5blYr1JoeSDXf+y4uBJPWaarSKYOm+CmI+s/QgQitwxnHjbhOEVCN8vGSFADQTg5iIPxGCmfGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\domin\\Source\\Repos\\AbgabeDS_S32011\\MyCompany.MathProgram\\MyCompany.MathProgram\\MyCompany.MathProgram.csproj",
+  "projectFilePath": "C:\\Users\\domin\\Source\\Repos\\AbgabeDS_S322112022\\MyCompany.MathProgram\\MyCompany.MathProgram\\MyCompany.MathProgram.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\domin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
