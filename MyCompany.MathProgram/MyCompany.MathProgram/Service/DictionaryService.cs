@@ -1,17 +1,14 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using MyCompany.MathProgram.ServiceInterface;
-using Newtonsoft.Json;
-using System;
-using System.ComponentModel.Design;
-using System.Net.Http;
-using IDictionaryService = MyCompany.MathProgram.ServiceInterface.IDictionaryService;
+﻿
 
-namespace MyCompany.MathProgram.Service
-{
-    [ApiController]
-    [Route("[controller]")]
-    public class DictionaryService : IDictionaryService
+
+namespace MyCompany.MathProgram.Service;
+
+
+    using Newtonsoft.Json;
+    using System;
+    using System.Net.Http;
+
+    public class DictionaryService : MyCompany.MathProgram.ServiceInterface.IDictionaryService
     {
         public DictionaryService GetWord(string Word)
         {
@@ -26,4 +23,4 @@ namespace MyCompany.MathProgram.Service
             return WordResult;
         }
     }
-}
+
